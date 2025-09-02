@@ -1,5 +1,5 @@
 
-# 👗 THE KINGSCLAN APPREL
+# 👗 THE KINGSCLAN APPAREL
 
 ### A Modern, Responsive Clothing Website built using HTML, CSS, and JavaScript. Includes Multiple Pages like Shop, Account, Search, and a beautiful Footer with Smooth CSS Styling.
 
@@ -10,23 +10,23 @@
 
 ## ✨ Features
 
-### ✔️ Responsive Design – Works on desktop, tablet, and mobile
+✔️ Responsive Design – Works on desktop, tablet, and mobile
 
-### ✔️ Navigation Bar – Quick access to all sections
+✔️ Navigation Bar – Quick access to all sections
+ 
+✔️ Shop Page – Browse stylish collections
 
-### ✔️ Shop Page – Browse stylish collections
+✔️ Account Page – Login & Register options
 
-### ✔️ Account Page – Login & Register options
+✔️ Search Page – Find products easily
 
-### ✔️ Search Page – Find products easily
+✔️ Footer Section – Includes links, social icons, and contact info
 
-### ✔️ Footer Section – Includes links, social icons, and contact info
+✔️ Modern CSS Styling – Clean design with hover effects & animations
 
-### ✔️ Modern CSS Styling – Clean design with hover effects & animations
+✔️ JavaScript Interactivity – Basic DOM manipulation
 
-### ✔️ JavaScript Interactivity – Basic DOM manipulation
-
-### ✔️ Lightweight & Fast – No frameworks, pure HTML, CSS, and JS
+✔️ Lightweight & Fast – No frameworks, pure HTML, CSS, and JS
 
 ## 🛠️ Tech Stack
 
@@ -72,9 +72,6 @@ Open index.html in your browser
 Double-click index.html
 
 Or right-click → Open with Browser
-
-
-
 
 
 ## ✅ Future Enhancements
