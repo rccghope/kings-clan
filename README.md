@@ -93,12 +93,13 @@ Or right-click → Open with Browser
 This project is open-source and available under the MIT License
 .
 
-## 📬 Contact
+### 📬 Contact
 
-## 🌐 Website: your-website.com
+### 🌐 Website: your-website.com
 
 
-## 📱 GitHub: github.com/Quill124,
+###  GitHub: github.com/
+            Quill124,
             princes.cpu,
             Oladiplenty-1,
             makindepraise-1,
