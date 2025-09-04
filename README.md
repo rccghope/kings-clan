@@ -1,70 +1,75 @@
 
-# 👗 THE KINGSCLAN APPAREL
+## THE KINGSCLAN APPAREL
 
-### A Modern, Responsive Clothing Website built using HTML, CSS, and JavaScript. Includes Multiple Pages like Shop, Account, Search, and a beautiful Footer with Smooth CSS Styling.
+#### A Modern, Responsive Clothing Website built using HTML, CSS, and JavaScript. Includes Multiple Pages like Shop, Account, Search, Cart and a Footer with Smooth CSS Styling.
 
 ## 🔗 Live Demo
 
-👉 View Demo
- ( Will replace with actual link)
+    View Demo
+ ( we Will replace with actual link)
 
 ## ✨ Features
 
 ✔️ Responsive Design – Works on desktop, tablet, and mobile
 
-✔️ Navigation Bar – Quick access to all sections
- 
-✔️ Shop Page – Browse stylish collections
-
 ✔️ Account Page – Login & Register options
+
+✔️ Navigation Bar – Quick access to all sections
 
 ✔️ Search Page – Find products easily
 
-✔️ Footer Section – Includes links, social icons, and contact info
+✔️ Home Page – Displays clothing products
 
-✔️ Modern CSS Styling – Clean design with hover effects & animations
+✔️ Shop Page – Browse stylish collections and Select Desired products
+
+✔️ Cart Page – Shows selected products with quantity and price
+
+✔️ Checkout Page – Final summary of items and payment section
+
+✔️ Footer Section – Includes links, social icons, and contact info
 
 ✔️ JavaScript Interactivity – Basic DOM manipulation
 
 ✔️ Lightweight & Fast – No frameworks, pure HTML, CSS, and JS
 
-## 🛠️ Tech Stack
 
-HTML5 – Semantic structure
+## 🛠️ Technologies Used
 
-CSS3 – Responsive layout, Flexbox, Grid, Animations
+HTML – for structuring the webpage
 
-JavaScript (ES6) – Event handling & interactivity
+CSS – for styling and layout
+
+JavaScript – for interactivity
+
+Font Awesome – for icons
+
+Google Fonts (Orbitron) – for typography
+
+
 
 ## 📂 Project Structure
-clothing-website/
+Kings-clan/
 │
 ├── index.html           # Home page
-
 ├── shop.html            # Shop page
-
 ├── account.html         # Account page
-
 ├── search.html          # Search page
-
 ├── style.css            # Styling file
-
+├── cart.html            # adding items to cart
 ├── script.js            # JavaScript functionality
-
-├── /images              # Product images & assets
-
+├── images/              # Product images
 └── README.md            # Documentation
 
 ## 🚀 How to Run the Project
 
 Clone the repository
 
-git clone https://github.com/your-username/kings-clan.git
+git clone https://github.com/rccghope/kings-clan.git
 
 
 Navigate to the folder
 
-cd clothing-website
+cd kings-clan
 
 
 Open index.html in your browser
@@ -74,16 +79,11 @@ Double-click index.html
 Or right-click → Open with Browser
 
 
-## ✅ Future Enhancements
-
-🔹 Add shopping cart & checkout system
-🔹 Implement advanced filters & search suggestions
-🔹 Connect to a backend (database + API)
-
 
 ## 🐞 Known Bugs
 
-✅ No known bugs at the moment.
+✅ No known bugs .
+
 
 ## 🏷️ License
 
@@ -92,15 +92,16 @@ This project is open-source and available under the MIT License
 
 ### 📬 Contact
 
-### 🌐 Website: your-website.com
+### 🌐 Website: 
 
 
 ###  GitHub: github.com/
-            Quill124,
+            Quill241,
             princes.cpu,
             Oladiplenty-1,
             makindepraise-1,
-            holyjames233.
+            holyjames233,
+            DARA-dev2252.
 
 
 
