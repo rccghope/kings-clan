@@ -6,7 +6,7 @@
 ## 🔗 Live Demo
 
     View Demo
- ( we Will replace with actual link)
+ ( we will replace with actual link)
 
 ## ✨ Features
 
@@ -49,15 +49,24 @@ Google Fonts (Orbitron) – for typography
 
 ## 📂 Project Structure
 Kings-clan/
-│
+
+
 ├── index.html           # Home page
+
 ├── shop.html            # Shop page
+
 ├── account.html         # Account page
+
 ├── search.html          # Search page
+
 ├── style.css            # Styling file
+
 ├── cart.html            # adding items to cart
+
 ├── script.js            # JavaScript functionality
+
 ├── images/              # Product images
+
 └── README.md            # Documentation
 
 ## 🚀 How to Run the Project
