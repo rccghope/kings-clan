@@ -1,7 +1,7 @@
 
 ## THE KINGSCLAN APPAREL
 
-#### A Modern, Responsive Clothing Website built using HTML, CSS, and JavaScript. Includes Multiple Pages like Shop, Account, Search, Cart and a Footer with Smooth CSS Styling.
+#### A Modern, Responsive Clothing Website built using HTML, CSS, and JavaScript. Includes Multiple Pages like Shop, Account, Search, About us, Cart and a Footer with Smooth CSS Styling.
 
 ##  Live Demo
 
