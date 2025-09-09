@@ -3,37 +3,39 @@
 
 #### A Modern, Responsive Clothing Website built using HTML, CSS, and JavaScript. Includes Multiple Pages like Shop, Account, Search, Cart and a Footer with Smooth CSS Styling.
 
-## 🔗 Live Demo
+##  Live Demo
 
     View Demo
  ( we will replace with actual link)
 
-## ✨ Features
+## Features
 
-✔️ Responsive Design – Works on desktop, tablet, and mobile
+    Responsive Design – Works on desktop, tablet, and mobile
 
-✔️ Account Page – Login & Register options
+    Account Page – Login & Register options
 
-✔️ Navigation Bar – Quick access to all sections
+    About us page - About the website
 
-✔️ Search Page – Find products easily
+    Navigation Bar – Quick access to all sections
 
-✔️ Home Page – Displays clothing products
+    Search Page – Find products easily
 
-✔️ Shop Page – Browse stylish collections and Select Desired products
+    Home Page – Displays clothing products
 
-✔️ Cart Page – Shows selected products with quantity and price
+    Shop Page – Browse stylish collections and Select Desired products
 
-✔️ Checkout Page – Final summary of items and payment section
+    Cart Page – Shows selected products with quantity and price
 
-✔️ Footer Section – Includes links, social icons, and contact info
+    Checkout Page – Final summary of items and payment section
 
-✔️ JavaScript Interactivity – Basic DOM manipulation
+    Footer Section – Includes links, social icons, and contact info
 
-✔️ Lightweight & Fast – No frameworks, pure HTML, CSS, and JS
+    JavaScript Interactivity – Basic DOM manipulation
+
+    Lightweight & Fast – No frameworks, pure HTML, CSS, and JS
 
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 HTML – for structuring the webpage
 
@@ -47,7 +49,7 @@ Google Fonts (Orbitron) – for typography
 
 
 
-## 📂 Project Structure
+##  Project Structure
 Kings-clan/
 
 
@@ -56,6 +58,8 @@ Kings-clan/
 ├── shop.html            # Shop page
 
 ├── account.html         # Account page
+
+├── aboutus.html         # About us page
 
 ├── search.html          # Search page
 
@@ -69,7 +73,7 @@ Kings-clan/
 
 └── README.md            # Documentation
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 Clone the repository
 
@@ -89,19 +93,19 @@ Or right-click → Open with Browser
 
 
 
-## 🐞 Known Bugs
+## Known Bugs
 
 ✅ No known bugs .
 
 
-## 🏷️ License
+## License
 
 This project is open-source and available under the MIT License
 .
 
-### 📬 Contact
+###  Contact
 
-### 🌐 Website: 
+###  Website: 
 
 
 ###  GitHub: github.com/
