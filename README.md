@@ -95,7 +95,7 @@ Or right-click → Open with Browser
 
 ## Known Bugs
 
-✅ No known bugs .
+### No known bugs .
 
 
 ## License
