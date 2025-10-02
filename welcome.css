@@ -1,0 +1,96 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid #f4ce62;
+    border-radius: 1px;
+    padding: 50px 20px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+main h4{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+main form label{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+main form input{
+    padding: 10px;
+    border: 1px solid #f4ce62;
+    border-radius: 1px;
+    font-size: 14px;
+}
+main form input:focus{
+    outline: none;
+    border: 2px solid #f4ce62;
+}
+main form .remember-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+main form .remember-me a{
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s;
+}
+main form .remember-me a:hover{
+    color: #f4ce62;
+}
+button{
+    padding: 10px 70px;
+    margin: 50px;
+    border: 2px solid #f4ce62;
+    background-color: #f4ce62;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #fff;
+    border: 2px solid #f4ce62;
+}
