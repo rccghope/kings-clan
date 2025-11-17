@@ -1,0 +1,175 @@
+body {
+    font-family: 'Orbitron';
+    margin: 50px 100px;
+    padding: 0;
+    background: #fff;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #f4ce62;
+}
+
+header h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+header p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: #f4ce62;
+    transition: 0.3s;
+    padding: 8px 16px;
+    border: 1px solid #f4ce62;
+}
+
+header p:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+section {
+    display: flex;
+    gap: 150px;
+}
+
+main h4 {
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #f4ce62;
+    padding-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.links a {
+    padding: 10px 0;
+    border-right: 1px solid #f4ce62;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.time {
+    border-right: 1px solid #f4ce62;
+}
+
+.links a:hover {
+    background-color: #f4ce62;
+    color: #fff;
+}
+
+.links a {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0 10px;
+}
+
+.account-info h4 {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.account-info img {
+    width: 150px;
+    height: auto;
+}
+
+.account-info p {
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.product-status {
+    border: 1px solid #f4ce62;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    padding: 15px;
+}
+
+.product-status:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-status h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    background-color: #138526;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.product-status .order-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    border-bottom: #f4ce62 1px solid;
+    margin-bottom: 15px;
+}
+
+.product-status .order-info p {
+    margin: 5px 0;
+}
+
+.product-status .order-info .time {
+    font-weight: 700;
+}
+
+.product-status .order-info .total {
+    font-weight: 700;
+    margin-left: auto;
+    display: inline-block;
+}
+
+.product-img {
+    display: flex;
+    gap: 20px;
+}
+
+.product-img h6 {
+    color: #000;
+    text-transform: capitalize;
+    background-color: #fff;
+}
+
+.product-img img {
+    width: 100px;
+    height: 100px;
+}
+.product-statuses{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
