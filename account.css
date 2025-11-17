@@ -1,0 +1,108 @@
+body {
+    font-family: 'Orbitron';
+    margin: 50px 100px;
+    padding: 0;
+    background: #fff;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #f4ce62;
+}
+
+header h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+header p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: #f4ce62;
+    transition: 0.3s;
+    padding: 8px 16px;
+    border: 1px solid #f4ce62;
+    text-decoration: none;
+}
+
+header p:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+section h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.account-info h4 {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.account-info img {
+    width: 150px;
+    height: auto;
+}
+
+.account-info p {
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 20px;
+}
+
+.info-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info-card {
+    border: 1px solid #f4ce62;
+    border-radius: 15px;
+    width: 500px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+}
+
+.info-card h5 {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.info-card p {
+    text-transform: capitalize;
+    font-weight: 500;
+}

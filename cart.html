@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart page</title>
+  <link rel="icon" href="./icons/kingsclan_logo.png">
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <header>
+    <div class="navbar">
+
+      <ul class="nav-links">
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+      <div class="nav-icons">
+        <div class="search-box">
+          <input type="text" placeholder="Search" />
+          <i class="fas fa-search"></i>
+        </div>
+        <span class="account"><i class="fas fa-user"></i> Account</span>
+        <div class="cart">
+          <i class="fas fa-shopping-cart"></i> Cart
+          <span id="cart-count">0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <main class="cart-container">
+    <div class="cart-items" id="cart-items">
+      <!-- Items will be placed here by JS -->
+    </div>
+
+    <div class="cart-summary">
+
+      <div id="summary-list"></div>
+       <!-- <p><span class="sales-tax1" id="sales-tax">₦0</span></p> -->
+      <h4><span class="total-price" id="total-price">₦0</span></h4>
+      <a href="checkout.html">
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </a>
+
+      <!-- <button class="checkout-btn">Proceed to Checkout</button> -->
+      <div class="summary-links">
+        <a href="./index.html">Continue shopping</a> 
+        <a href="#" id="clear-cart">Clear cart</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="cart.js"></script>
+  <!-- <script src="checkout.js"></script>  -->
+</body>
+
+</html>
