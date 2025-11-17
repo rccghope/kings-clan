@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check out</title>
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <header>
+    <div class="navbar">
+
+      <ul class="nav-links">
+        <li><a href="">HOME</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+      <div class="nav-icons">
+        <div class="search-box">
+          <input type="text" placeholder="Search" />
+          <i class="fas fa-search"></i>
+        </div>
+        <span class="account"><i class="fas fa-user"></i> Account</span>
+        <div class="cart">
+          <i class="fas fa-shopping-cart"></i> Cart
+          <span id="cart-count">0</span>
+        </div>
+      </div>
+    </div>
+  <!-- </header> -->
+
+
+    <main class="checkout-container">
+    <!-- LEFT SIDE -->
+    <section class="checkout-left">
+      <div class="order-summary">
+        <div id="order-items" class="order-items">
+          <!-- Items from JS -->
+        </div>
+        <!-- <div class="summary-line">
+          <span>Sales Tax</span>
+          <span id="sales-tax">₦0</span>
+        </div> -->
+        <div class="summary-line total">
+          <span>Total</span>
+          <span id="total-price">₦0</span>
+        </div>
+      </div>
+
+      <div class="payment-method">
+        <h3>Choose Payment Method</h3>
+        <button class="paystack-btn">Paystack</button>
+        <button id="place-order" class="place-order-btn">Place Order</button>
+        <p class="note">
+          Note: Please complete your payment within 20 mins to avoid order cancellation.
+        </p>
+      </div>
+    </section>
+
+    <!-- RIGHT SIDE -->
+    <section class="checkout-right">
+      <div class="delivery-details">
+        <h3>Delivery details</h3>
+        <p>1, Kelly Adeloye street, Giwa Oke-aro, Ogun state</p>
+        <button class="change-address-btn">Change address</button>
+      </div>
+
+      <div class="shipping-method">
+        <h3>Shipping Method</h3>
+        <div class="select-wrap">
+        <select id="shipping-method">
+          <option value="">Select shipping method</option>
+          <option value="standard">Standard - ₦500</option>
+          <option value="express">Express - ₦1500</option>
+        </select>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="checkout.js"></script>
+</html>
